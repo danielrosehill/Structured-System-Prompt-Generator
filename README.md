@@ -1,5 +1,7 @@
 # Structured System Prompt Generator
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://structuredprompts.streamlit.app/)
+
 A Streamlit application that helps you generate structured system prompts for AI applications. This tool analyzes your input prompt and produces three key outputs:
 
 1. **Optimized System Prompt:** A refined version of your system prompt with improved clarity and flow
@@ -85,6 +87,5 @@ The application uses OpenAI's GPT-4 model to analyze your system prompt and gene
 - **UX Designers**: Understand data structures needed for AI interactions
 - **Developers**: Generate JSON schemas for API endpoints that interface with AI systems
 
-## License
-
-MIT License
+ 
+ 

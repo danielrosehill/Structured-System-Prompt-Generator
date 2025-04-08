@@ -156,16 +156,16 @@ with st.sidebar:
     
     st.markdown("---")
     st.markdown("### About")
-    st.markdown("""
-    This app helps you generate structured system prompts for AI applications.
+    st.markdown("This tool helps you generate structured system prompts for AI applications.")
+    st.markdown("It uses OpenAI's GPT-4 to analyze your input and produce three outputs:")
+    st.markdown("1. Optimized System Prompt")
+    st.markdown("2. Data Requirements")
+    st.markdown("3. Structured Output JSON")
     
-    It analyzes your input prompt and produces:
-    1. An optimized system prompt
-    2. Data requirements table
-    3. Structured output JSON schema
-    
-    Created with ❤️ using Streamlit
-    """)
+    st.markdown("---")
+    st.markdown("### Created by")
+    st.markdown("[Daniel Rosehill](https://github.com/danielrosehill)")
+    st.markdown("[GitHub Repository](https://github.com/danielrosehill/Structured-System-Prompt-Generator/tree/main)")
 
 # Main content
 st.title("🤖 Structured System Prompt Generator")
@@ -262,3 +262,9 @@ if process_button:
                     
                     # Add a regular Streamlit copy button as fallback
                     copy_button(formatted_json, "Copy JSON Schema", key="copy_json")
+
+# Footer
+st.markdown("---")
+st.markdown("### Created by")
+st.markdown("[Daniel Rosehill](https://github.com/danielrosehill)")
+st.markdown("[GitHub Repository](https://github.com/danielrosehill/Structured-System-Prompt-Generator/tree/main)")
